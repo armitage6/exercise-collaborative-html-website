@@ -48,6 +48,9 @@ img {
     font-size: 90px;
 }
 
+
+/*Responsividad de los titulos*/
+
 @media screen and (max-width: 1300px) {
     .div-titulos h1{
       
@@ -94,3 +97,4 @@ img {
     }
 } 
 
+/*-----------------------------------------------------------------*/
