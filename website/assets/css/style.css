@@ -13,11 +13,19 @@ body{
 .img-portada {
     width: 100%;
     padding: 0px;
-    position: relative;
+    
+   
 }
 
 img {
     width: 100%;
+    
+}
+
+/*La imagen ahora tiene position relative y ya no la clase= img-porada*/
+
+.position-imagen-portada {
+    position: relative;
 }
 
 
@@ -28,8 +36,6 @@ img {
     top: calc(50% - 330px) ; 
     left: 2%;
     width:98%;
-  
-   
 }
 
 .posisionamiento-titulos h1,h2 {
@@ -95,6 +101,14 @@ img {
     .div-titulos h2{
       
       font-size: 20px;
+      
+    }
+} 
+
+@media screen and (max-width: 400px) {
+    .div-titulos {
+      
+      display: none;
       
     }
 } 
