@@ -5,6 +5,7 @@ body{
 
 .navbar-cambio{
     padding: 0px;
+    margin-left: 5px;
 
 }
 
@@ -27,6 +28,7 @@ img {
     top: calc(50% - 330px) ; 
     left: 2%;
     width:98%;
+    margin-top: 140px;
    
 }
 
