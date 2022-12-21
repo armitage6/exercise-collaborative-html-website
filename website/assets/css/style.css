@@ -11,107 +11,38 @@ body{
 
 /*Imagen portada*/
 .img-portada {
+background-image: url("../img/bg.jpg");
+height: 500px;
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.div-titulos {
     width: 100%;
-    padding: 0px;
-    
-   
-}
-
-img {
-    width: 100%;
-    
-}
-
-/*La imagen ahora tiene position relative y ya no la clase= img-porada*/
-
-.position-imagen-portada {
-    position: relative;
-}
-
-
-/*Titulo posicionado sobre la imagen*/
-.div-titulos {  
-    display: inline-block; 
-    position: absolute;
-    top: calc(50% - 330px) ; 
-    left: 2%;
-    width:98%;
-}
-
-.posisionamiento-titulos h1,h2 {
-    font-size: 100px;
-    padding: auto;
-    background-color: white;
     text-align: center;
-    display: inline-block;
-    width: 98%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.div-titulos h1{
+   background-color:white;
+   font-size: 5rem;
    
+ 
 }
 
-.posisionamiento-titulos h1 {
-    font-size: 150px;
+.div-titulos h2{
+    background-color:white ;
+    font-size: 3rem;
+ 
 }
 
-.posisionamiento-titulos h2 {
-    font-size: 90px;
-}
 
-
-/*Responsividad de los titulos*/
-
-@media screen and (max-width: 1300px) {
-    .div-titulos h1{
-      
-      font-size: 100px;
-    }
-} 
-
-@media screen and (max-width: 1300px) {
-    .div-titulos h2{
-      
-      font-size: 50px;
-    }
-} 
-
-
-
-@media screen and (max-width: 900px) {
-    .div-titulos h1{
-      
-      font-size: 80px;
-    }
-} 
-
-@media screen and (max-width: 900px) {
-    .div-titulos h2{
-      
-      font-size: 50px;
-      
-    }
-} 
-
-@media screen and (max-width: 700px) {
-    .div-titulos h1{
-      
-      font-size: 30px;
-    }
-} 
-
-@media screen and (max-width: 700px) {
-    .div-titulos h2{
-      
-      font-size: 20px;
-      
-    }
-} 
-
-@media screen and (max-width: 400px) {
-    .div-titulos {
-      
-      display: none;
-      
-    }
-} 
 
 /*-----------------------------------------------------------------*/
 
